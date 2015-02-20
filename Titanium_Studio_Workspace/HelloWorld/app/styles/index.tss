@@ -1,8 +1,9 @@
 ".container": {
-	backgroundColor:"white"
+	backgroundColor: "white"
 }
 
 "Label": {
+	top: 5,
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
 	color: "#000"
@@ -12,4 +13,8 @@
 	font: {
 		fontSize: 12
 	}
+}
+
+"#btnFacebook": {
+	top: 30
 }

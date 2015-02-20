@@ -1,0 +1,13 @@
+
+".container": {
+	layout: 'vertical',
+	backgroundColor: '#ffffe0'
+}
+
+"#btnClose": {
+	top: 10,
+	color: 'white',
+	backgroundColor: '#696969',
+	width: 100,
+	height: 30
+}

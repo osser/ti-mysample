@@ -1,5 +1,6 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World111</Label>
+		<Label id="label" onClick="doClick">Hello, Appcelerator Titanium World.</Label>
+		<Button id="btnFacebook" onClick="btnFacebook_onClick">Facebook</Button>
 	</Window>
 </Alloy>

@@ -1,0 +1,4 @@
+".container[platform=ios]": {
+	top: 20,
+	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+}

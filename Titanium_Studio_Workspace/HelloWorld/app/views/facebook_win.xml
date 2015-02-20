@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container" title="FaceBook">
+		<Button id="btnClose" onClick="btnClose_onClick">閉じる</Button>
+	</Window>
+</Alloy>
