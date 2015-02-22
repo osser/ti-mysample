@@ -35,6 +35,29 @@
 				<false/>
 				<key>UIStatusBarStyle</key>
 				<string>UIStatusBarStyleDefault</string>
+				<key>FacebookAppID</key>
+				<string>950258601651440</string>
+				<key>FacebookDisplayName</key>
+				<string>myfirstapp</string>
+				<key>CFBundleURLTypes</key>
+				<array>
+					<dict>
+						<key>CFBundleURLName</key>
+						<string>helloworld.osser.jp</string>
+						<key>CFBundleURLSchemes</key>
+						<array>
+							<string>helloworld</string>
+							<string>fb950258601651440</string>
+							<!--
+							<string>fb950258601651440test1</string>
+							-->
+						</array>
+					</dict>
+				</array>
+				<!--
+				<key>FacebookUrlSchemeSuffix</key>
+				<string>test1</string>
+				-->
 			</dict>
 		</plist>
 	</ios>
@@ -52,7 +75,10 @@
 		</splash>
 		<theme>default</theme>
 	</mobileweb>
-	<modules/>
+	<modules>
+    <module platform="iphone" version="3.21.10">com.facebook</module>
+    <module platform="android" version="3.23.01">com.ti.facebook</module>
+  </modules>
 	<deployment-targets>
 		<target device="android">true</target>
 		<target device="blackberry">false</target>

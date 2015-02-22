@@ -1,0 +1,17 @@
+Facebook Module
+=================
+
+#https://github.com/timanrebel/Facebook
+
+https://github.com/mokesmokes/titanium-ios-facebook
+https://github.com/mokesmokes/titanium-android-facebook
+
+# gittio
+
+sudo npm install -g gittio
+
+#gittio install rebel.facebook
+
+gittio install com.facebook
+gittio install com.ti.facebook
+

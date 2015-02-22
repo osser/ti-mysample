@@ -1,5 +1,8 @@
 <Alloy>
 	<Window class="container" title="FaceBook">
+		<Button id="btnLogin" onClick="btnLogin_onClick">ログイン</Button>
+		<Button id="btnLogout" onClick="btnLogout_onClick">ログアウト</Button>
+		<Button id="btnShare" onClick="btnShare_onClick">シェア</Button>
 		<Button id="btnClose" onClick="btnClose_onClick">閉じる</Button>
 	</Window>
 </Alloy>

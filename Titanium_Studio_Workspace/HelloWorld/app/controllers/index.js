@@ -10,7 +10,6 @@ function btnFacebook_onClick(e) {
 	}).getView();
 
 	win.left = Ti.Platform.displayCaps.platformWidth;
-	win.top = 0;
 
 	if (OS_IOS) {
 		var anima = Titanium.UI.createAnimation();
@@ -20,6 +19,7 @@ function btnFacebook_onClick(e) {
 	}
 
 	if (OS_ANDROID) {
+		win.top = 0;
 		win.open({
 			activityEnterAnimation : Ti.Android.R.anim.fade_in,
 			activityExitAnimation : Ti.Android.R.anim.fade_out
